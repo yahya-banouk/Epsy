@@ -1,0 +1,64 @@
+.patientProfile{
+    flex:2;
+    padding: 20px;
+   
+}
+.patientTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.patientContainer{
+    display: flex;
+    margin-top: 20px;
+
+}
+.patientShow{
+    flex:2;
+    padding: 20px;
+    -webkit-box-shadow: 5px 3px 15px -5px #000000; 
+    box-shadow: 5px 3px 15px -5px #000000;
+margin-left: 20px;
+
+}
+.patientShowTop{
+    display: flex;
+    align-items: center;
+}
+.patientShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.patientShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.patientShowUserName{
+    font-weight: 600;
+}
+.patientShowUserMaladie{
+    font-weight: 300;
+}
+.patientShowBottom{
+    margin-top: 20px;
+    
+}
+.patientShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(158, 150, 150)
+}
+.patientShowInfo{
+    display: flex;align-items: center;
+    margin: 20px 0px;
+    color:#444;
+}
+.patientShowIcon{
+    font-size: 16px;
+    color:rgb(74, 74, 204);
+    margin-right: 20px;
+}

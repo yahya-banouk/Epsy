@@ -1,0 +1,10 @@
+*{
+    z-index: 10;
+}
+.bd{
+    z-index: -1000 !important;
+
+}
+.ts{
+    justify-content: center;
+}

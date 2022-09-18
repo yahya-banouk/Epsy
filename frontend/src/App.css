@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+.homeDoc{
+  display: flex;
+  margin-top: 10px;
+}
+html {
+  /* this makes sure the padding and the border is included in the box sizing */
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.formcs{
+  width: 80%;
+  height: 25%;
+ 
+}
+
+.scroll{
+  overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+}
+
+.mt-0 {
+margin-top: 5rem !important;
+}
+
+
+.cardT {
+text-align: center;
+color: brown;
+font-size: 30px !important
+}
+
+.cardTx{
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+.hAbout {
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-weight: lighter;
+color: brown;
+
+}

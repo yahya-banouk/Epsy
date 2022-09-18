@@ -1,0 +1,46 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.featuredItem{
+    font: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 5px 15px -1px #000000; 
+box-shadow: 3px 5px 15px -1px #000000;
+}
+.featuredTitle{
+    font-size: 20px;
+}
+.eaturedPatientsContainer{
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+
+}
+.featuredPatients{
+  font-size: 30px;
+  font-weight: 600;  
+}
+.featuredPatientRate{
+   display: flex;
+   align-items: center; 
+   margin-left: 20px;
+}
+
+.featuredIcon{
+    font-style: 14px;
+    margin-left: 5px;
+    color: green;
+}
+.featuredIcon.negative{
+    color: red;
+}
+.featuredSub{
+    font-style: 15px;
+    color: gray;
+}

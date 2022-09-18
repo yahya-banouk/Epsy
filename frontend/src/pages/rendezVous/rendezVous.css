@@ -1,0 +1,18 @@
+.rendezVousList{
+    flex:4;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.acceptButton{
+    border:none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:rgb(32, 204, 26);
+    margin-right: 20px;
+}
+.refuseButton{
+    border:none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:rgb(202, 72, 68);
+}

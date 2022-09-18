@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+.cardsPatient{
+    flex:4;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-flow: row wrap;
+    
+}
+.cardPatient{
+    margin-top: 50px;
+    display: inline;
+    margin-right: 50px;
+    width:350px;
+    height:300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow:0px 1px 10px 1px black;
+  
+
+}
+.upper-container{
+    height:100px;
+    background: linear-gradient(to left, #2d00f7, #ff0291);
+}
+
+.image-container{
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding:5px;
+    transform: translate(95px,45px);
+}
+.imgImage{
+    border-radius: 50%;}
+.lower-container{
+    margin-top:60px ;
+    height:200px;
+    background: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.lower-container h3,h4,p{
+    margin:0;
+    padding: 0;
+}
+.lower-container h3{
+    color:#2f2d2e;
+    font-weight:700;
+    font-size: 1.2rem;
+}
+.lower-container h4{
+    color:#225fe4;
+    font-weight:700;
+    font-size: 1.2rem;
+}
+.makeAppointement{
+    margin: 1rem;
+    margin-top: 0;
+    color:#225fe4;
+    font:bld;
+    background-color: white;
+    border:2px solid #225fe4;
+    padding:0.6rem;
+    border-radius: 6px;
+   transition-duration: 0.5s;
+   animation: ease-in-out;
+   cursor: pointer;
+
+}
+a.button:hover{
+    background: #225fe4;
+}
+#searchBar{
+    padding: 2rem,1rem;
+}
+#searchBar input{
+    font-size: 1.2rem;
+    position: relative;
+    display: inline-block;
+    font-style: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    width: 200px;
+    height:200px;
+}
+.inputText { font-size: 23px; 
+background: rgb(193, 216, 247);
+border:none;
+outline: none;
+padding: 0 10px;
+border-radius: 25px 0 0 25px;}
+.inputSubmit{
+  position:relative;
+  border-radius:0 25px 25px 0;
+  font-size: 19px;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  background: #225fe4;
+  color: #fff;
+  left:-5px;
+  bottom: 2px;
+
+
+}
+input[type='submit']:hover{
+    background:#04308f;
+}
+.search{
+    margin-top: 10px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    margin-left: 200px;
+    
+
+    
+}
+

@@ -1,0 +1,58 @@
+.widgetSm{
+    flex: 1;
+    -webkit-box-shadow: 1px 5px 15px -1px #000000; 
+box-shadow: 1px 5px 15px -1px #000000;
+padding: 20px;
+margin-right: 20px;
+
+}
+.widgetSmTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetSmImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetSmList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.widgetSmListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+
+}
+.widgetSmPatient{
+    display: flex;
+    
+    
+    align-items: center;
+}
+.widgetSmPatientName{
+font-weight: 600;
+margin-left: 10px;
+
+}
+.widgetSmPatientMaladie{
+    font-weight: 300;
+}
+.widgetSmButton{
+    display: flex;
+    align-items: center;
+    border:none;
+    border-radius: 10px;
+    padding: 7px 10px ;
+    background-color: #eeeef7;
+    color: gray;
+}
+.widgetSmIcon{
+    font-style: 16px;
+    margin-right: 5px;
+
+}

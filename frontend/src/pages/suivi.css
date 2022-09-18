@@ -1,0 +1,10 @@
+.surveyFrom{
+    justify-content: center;
+    align-items: center;
+}
+.cardSurvey{
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: rgb(118, 209, 245);
+
+}
